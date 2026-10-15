@@ -1,0 +1,46 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Neon X Glow Backdrop -->
+    <path
+        android:pathData="M32,32 L52,52 M52,32 L32,52"
+        android:strokeWidth="11"
+        android:strokeColor="#40FF2A6D"
+        android:strokeLineCap="round" />
+
+    <!-- Neon X Main Stroke -->
+    <path
+        android:pathData="M32,32 L52,52 M52,32 L32,52"
+        android:strokeWidth="6"
+        android:strokeColor="#FF2A6D"
+        android:strokeLineCap="round" />
+
+    <!-- Neon O Glow Backdrop -->
+    <path
+        android:pathData="M66,66 m-14,0 a14,14 0 1,0 28,0 a14,14 0 1,0 -28,0"
+        android:strokeWidth="11"
+        android:strokeColor="#4000F2FE"
+        android:strokeLineCap="round" />
+
+    <!-- Neon O Main Stroke -->
+    <path
+        android:pathData="M66,66 m-14,0 a14,14 0 1,0 28,0 a14,14 0 1,0 -28,0"
+        android:strokeWidth="6"
+        android:strokeColor="#00F2FE"
+        android:strokeLineCap="round" />
+
+    <!-- Subtle accent grid line -->
+    <path
+        android:pathData="M24,56 L84,56"
+        android:strokeWidth="2"
+        android:strokeColor="#25FFFFFF"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M56,24 L56,84"
+        android:strokeWidth="2"
+        android:strokeColor="#25FFFFFF"
+        android:strokeLineCap="round" />
+</vector>

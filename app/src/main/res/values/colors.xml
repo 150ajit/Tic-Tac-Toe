@@ -1,0 +1,10 @@
+<resources>
+    <color name="splash_background">#0B0E1B</color>
+    <color name="splash_icon_color">#FF2A6D</color>
+    <color name="neon_cyan">#00F2FE</color>
+    <color name="neon_pink">#FF2A6D</color>
+    <color name="neon_purple">#9D4EDD</color>
+    <color name="neon_yellow">#FFD166</color>
+    <color name="bg_dark">#0B0E1B</color>
+    <color name="card_dark">#16192E</color>
+</resources>
