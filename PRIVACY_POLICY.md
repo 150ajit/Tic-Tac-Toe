@@ -1,14 +1,15 @@
 # Privacy Policy for Tic Tac Toe – XOXO
 
-**Effective Date:** October 7, 2026  
-**Application Name:** Tic Tac Toe – XOXO  
+**Application Name:** Tic Tac Toe – XOXO (Tic Tac Toe)  
+**Developer / Publisher:** 150ajit  
 **Package Name:** `com.aks.tictactoeai`  
-**Contact:** [150ajit@gmail.com](mailto:150ajit@gmail.com)
+**Developer Contact Email:** [150ajit@gmail.com](mailto:150ajit@gmail.com)  
+**Effective Date:** October 29, 2026  
 
 ---
 
 ### Overview
-This Privacy Policy describes how **Tic Tac Toe – XOXO** ("we", "our", or "the app") handles user information. We are committed to protecting your privacy and complying with Google Play Developer Policies and global data protection standards (GDPR, COPPA).
+This Privacy Policy describes how **150ajit** ("we", "our", or "Developer"), developer and publisher of **Tic Tac Toe – XOXO** (`com.aks.tictactoeai`), handles user information. We are committed to protecting your privacy and complying with Google Play Developer Program Policies (specifically the User Data Policy) and global data protection standards (GDPR, COPPA).
 
 **Summary: We do not collect, store, transmit, or share any personal information.**
 
@@ -46,6 +47,9 @@ Since we do not store your data on external servers:
 ### 7. Changes to This Policy
 We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date.
 
-### 8. Contact Us
-For any questions regarding this Privacy Policy, please contact:  
-**Email:** [150ajit@gmail.com](mailto:150ajit@gmail.com)
+### 8. Developer Identity & Contact Information
+For any questions regarding this Privacy Policy or data practices, please contact:  
+* **Developer / Publisher:** 150ajit  
+* **Application Title:** Tic Tac Toe – XOXO  
+* **Package Name:** `com.aks.tictactoeai`  
+* **Email:** [150ajit@gmail.com](mailto:150ajit@gmail.com)

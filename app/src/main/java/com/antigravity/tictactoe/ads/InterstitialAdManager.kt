@@ -17,7 +17,7 @@ import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
  * - Uses Google's official sample Interstitial Ad Unit ID for DEBUG builds.
  * - Uses the user's production Interstitial Ad Unit ID for RELEASE builds.
  * - Shows ads only at natural transition points (after match completion).
- * - Enforces frequency capping (e.g. every 2 matches) to avoid spamming the user.
+ * - Enforces frequency capping (e.g. every 7 matches) to avoid spamming the user.
  */
 class InterstitialAdManager(private val context: Context) {
 
@@ -25,8 +25,8 @@ class InterstitialAdManager(private val context: Context) {
     private var isLoading = false
     private var completedMatchesCount = 0
 
-    // Show an interstitial ad after every 2 completed matches
-    private val matchesBetweenAds = 2
+    // Show an interstitial ad after every 7 completed matches
+    private val matchesBetweenAds = 7
 
     private val adUnitId: String
         get() = if (BuildConfig.DEBUG) {

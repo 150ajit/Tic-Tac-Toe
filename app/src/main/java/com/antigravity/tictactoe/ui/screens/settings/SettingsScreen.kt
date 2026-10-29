@@ -295,7 +295,8 @@ fun SettingsScreen(
                             .verticalScroll(rememberScrollState())
                     ) {
                         Text(
-                            text = "Tic Tac Toe – XOXO (com.aks.tictactoeai)\n\n" +
+                            text = "Tic Tac Toe – XOXO (com.aks.tictactoeai)\n" +
+                                "Developer: 150ajit • Contact: 150ajit@gmail.com\n\n" +
                                 "• Zero Personal Data Collection: We do not collect, transmit, or share any personal identity, contact, or location data.\n\n" +
                                 "• 100% Offline & Local: Game statistics and settings are saved exclusively on your local device storage.\n\n" +
                                 "• Advertisements: The app displays non-intrusive banner ads powered by official Google AdMob.\n\n" +
