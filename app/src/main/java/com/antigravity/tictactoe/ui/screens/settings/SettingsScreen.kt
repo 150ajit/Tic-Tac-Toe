@@ -49,9 +49,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.antigravity.tictactoe.BuildConfig
 import com.antigravity.tictactoe.domain.model.AppThemeMode
 import com.antigravity.tictactoe.ui.components.GlowCard
 import com.antigravity.tictactoe.ui.theme.NeonCyan
@@ -65,6 +67,7 @@ fun SettingsScreen(
     modifier: Modifier = Modifier
 ) {
     val settings by viewModel.appSettings.collectAsState()
+    val uriHandler = LocalUriHandler.current
     var showPrivacyDialog by remember { mutableStateOf(false) }
 
     Scaffold(
@@ -232,7 +235,7 @@ fun SettingsScreen(
                     )
                     Spacer(modifier = Modifier.height(4.dp))
                     Text(
-                        text = "Version 1.0.0 • 100% Offline & Private",
+                        text = "Version ${BuildConfig.VERSION_NAME} • 100% Offline & Private",
                         style = MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant
                     )
@@ -309,11 +312,26 @@ fun SettingsScreen(
                         )
                     }
                 },
+                dismissButton = {
+                    TextButton(onClick = {
+                        try {
+                            uriHandler.openUri("https://merry-youtiao-93ae2d.netlify.app/")
+                        } catch (_: Exception) {
+                            // Ignore if no browser handler available
+                        }
+                    }) {
+                        Text(
+                            text = "View Online",
+                            color = NeonCyan,
+                            fontWeight = FontWeight.Medium
+                        )
+                    }
+                },
                 confirmButton = {
                     TextButton(onClick = { showPrivacyDialog = false }) {
                         Text(
                             text = "Close",
-                            color = NeonCyan,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
                             fontWeight = FontWeight.Bold
                         )
                     }
